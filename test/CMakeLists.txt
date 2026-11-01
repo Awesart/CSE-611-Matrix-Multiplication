@@ -15,5 +15,5 @@ add_executable(matrix_tests
     MatrixTest.cpp
 )
 
-target_link_libraries(matrix_tests PUBLIC MatrixClass::MatrixClass gtest_main)
+target_link_libraries(matrix_tests PUBLIC MatrixClass::MatrixClass GTest::gtest_main)
 add_test(NAME matrix_tests COMMAND matrix_tests)
